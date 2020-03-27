@@ -1,0 +1,15 @@
+{
+  "name": "kbp-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "npx webpack --config=../config/frontend/webpack.dev.js && npx webpack-dev-server --config=../config/frontend/webpack.serve.js --open",
+    "build": "npx webpack --config=../config/frontend/webpack.dev.js",
+    "build-prod": "npx webpack --config=../config/frontend/webpack.prod.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aluma Federico, Fernando Hillcoat",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {}
+}

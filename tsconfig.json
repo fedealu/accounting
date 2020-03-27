@@ -1,0 +1,27 @@
+{
+	"compileOnSave": true,
+	"exclude": ["node_modules"],
+	"compilerOptions": {
+		"target": "es5",
+		"module": "commonjs",
+		"allowJs": true,
+		"sourceMap": true,
+		"noEmitOnError": true,
+		"strict": true,
+		"strictFunctionTypes": true,
+		"strictBindCallApply": true,
+		"alwaysStrict": true,
+		// "noUnusedLocals": true,
+		"noImplicitReturns": true,
+		"typeRoots": [],
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"plugins": [
+			{
+				"name": "typescript-tslint-plugin",
+				"configFile": "./tslint.json",
+				"alwaysShowRuleFailuresAsWarnings": true
+			}
+		]
+	}
+}

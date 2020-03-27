@@ -1,0 +1,13 @@
+{
+	"extends": "../tsconfig.json",
+	"compilerOptions": {
+		"jsx": "react",
+		"outDir": "../dist/frontend"
+	},
+	"paths": {
+		"@containers/*": ["src/containers/*"],
+		"@components/*": ["src/components/*"],
+		"@style/*": ["src/styles/*"],
+		"@hoc/*": ["src/hoc/*"]
+	}
+}

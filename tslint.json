@@ -1,0 +1,27 @@
+{
+	"defaultSeverity": "warning",
+	"rules": {
+		"max-line-length": {
+			"options": [120]
+		},
+		"member-access": true,
+		"adjacent-overload-signatures": true,
+		"no-consecutive-blank-lines": true,
+		"no-magic-numbers": true,
+		"curly": true,
+		"no-console": {
+			"severity": "warning",
+			"options": ["debug", "info", "log", "time", "timeEnd", "trace"]
+		},
+		"no-debugger": true,
+		"max-classes-per-file": [true, 1],
+		"no-duplicate-variable": true,
+		"no-empty": true,
+		"triple-equals": true,
+		"prefer-const": true,
+		"arrow-return-shorthand": true,
+		"class-name": true,
+		"interface-name": true,
+		"file-name-casing": [true, "camel-case"]
+	}
+}
